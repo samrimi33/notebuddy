@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NoteBuddy · Privacy Policy</title>
+<style>
+  :root { --bg: #FFF6F8; --text: #2B1B24; --muted: #8C7280; --card: #FFFFFF; --accent: #6C5CE7; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #1A1418; --text: #F8EAF0; --muted: #B39AA6; --card: #251C22; --accent: #9D8CFF; } }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 30px; margin: 0 0 4px; } h2 { font-size: 20px; margin: 32px 0 8px; }
+  .muted { color: var(--muted); } a { color: var(--accent); }
+  .card { background: var(--card); border-radius: 16px; padding: 16px 20px; margin: 16px 0; }
+  li { margin: 4px 0; }
+</style>
+</head>
+<body>
+<main>
+  <p><a href="./">← NoteBuddy</a></p>
+  <h1>Privacy Policy</h1>
+  <p class="muted">Last updated: 16 October 2026</p>
+
+  <div class="card">
+    <strong>In short:</strong> NoteBuddy is a private notebook. Your notes, diary, lists, passwords and photos are stored on your phone.
+    If you turn on cloud sync, they are encrypted on your phone before they are uploaded, so we can't read them.
+    There are no ads, no trackers and no selling of data.
+  </div>
+
+  <h2>Who we are</h2>
+  <p>NoteBuddy is made by Shivam Mishra. Contact: <a href="mailto:samrimi33@gmail.com">samrimi33@gmail.com</a>.</p>
+
+  <h2>What stays on your phone</h2>
+  <p>Everything you create — notes, diary pages, photos, voice notes, tasks, grocery lists, expenses, health logs, the password vault and settings —
+    is saved in the app's private storage on your device. Locked notes and the vault are encrypted with a key kept in your phone's secure keystore.
+    Backups you export are encrypted with a password you choose and saved wherever you decide.</p>
+
+  <h2>Google Sign-In</h2>
+  <p>Signing in is optional. If you sign in with Google, we receive your <strong>name, email address and profile picture</strong> from Google
+    (scopes: openid, email, profile). We use them only to create your NoteBuddy account and show who is signed in. We never get your Google password
+    and we don't access your Gmail, Drive, contacts or any other Google data.</p>
+
+  <h2>Cloud sync (optional)</h2>
+  <p>If you turn on sync, your data is <strong>encrypted on your phone before upload</strong> and stored with our hosting provider, Supabase.
+    Only your devices hold the key, so neither we nor Supabase can read your notes. We can see basic account information (your email, when you
+    signed up and how much space your encrypted data uses) to run the service.</p>
+
+  <h2>Features that use services on your phone</h2>
+  <ul>
+    <li><strong>Document scanning and reading text from photos</strong> run on your phone (Google ML Kit, on-device). Images are not uploaded.</li>
+    <li><strong>Dictation</strong> uses your phone's speech-recognition service. When your phone has an offline speech model it runs on the device;
+      otherwise your phone's provider (usually Google) processes the audio under its own privacy policy. NoteBuddy shows which one is in use.</li>
+    <li><strong>Read aloud</strong> uses your phone's built-in text-to-speech.</li>
+    <li><strong>AI assistant (optional, off by default)</strong>: only when you use it, the text you choose is sent to Anthropic's Claude API using an API key
+      you provide. It is never used automatically and locked notes are never sent.</li>
+  </ul>
+
+  <h2>Notifications and widgets</h2>
+  <p>Reminders and home-screen widgets are created on your phone. In privacy mode, notifications and widgets hide what your notes say.</p>
+
+  <h2>What we don't do</h2>
+  <ul>
+    <li>No advertising and no ad identifiers.</li>
+    <li>No analytics or tracking SDKs.</li>
+    <li>We don't sell, rent or share your data with anyone.</li>
+  </ul>
+
+  <h2>Deleting your data</h2>
+  <p>Data on your phone is deleted when you delete it in the app or uninstall NoteBuddy. To delete your account and any synced (encrypted) data,
+    use “Delete account” in the app's settings once sync is available, or email <a href="mailto:samrimi33@gmail.com">samrimi33@gmail.com</a>
+    from the address you signed in with and we will delete it within 30 days.</p>
+
+  <h2>Children</h2>
+  <p>NoteBuddy is not directed at children under 13 and we don't knowingly collect their data.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, we'll update the date above and mention important changes in the app.</p>
+</main>
+</body>
+</html>
