@@ -23,7 +23,7 @@
 
   <div class="card">
     <strong>In short:</strong> NoteBuddy is a private notebook. Your notes, diary, lists, passwords and photos are stored on your phone.
-    If you turn on cloud sync, they are encrypted on your phone before they are uploaded, so we can't read them.
+    If you turn on cloud backup, they are encrypted on your phone and saved in your own Google Drive, so nobody else can read them.
     There are no ads, no trackers and no selling of data.
   </div>
 
@@ -40,10 +40,11 @@
     (scopes: openid, email, profile). We use them only to create your NoteBuddy account and show who is signed in. We never get your Google password
     and we don't access your Gmail, Drive, contacts or any other Google data.</p>
 
-  <h2>Cloud sync (optional)</h2>
-  <p>If you turn on sync, your data is <strong>encrypted on your phone before upload</strong> and stored with our hosting provider, Supabase.
-    Only your devices hold the key, so neither we nor Supabase can read your notes. We can see basic account information (your email, when you
-    signed up and how much space your encrypted data uses) to run the service.</p>
+  <h2>Cloud backup (optional)</h2>
+  <p>If you turn on cloud backup, NoteBuddy <strong>encrypts your data on your phone</strong> with a backup password only you know, then saves the
+    encrypted file in a hidden NoteBuddy folder in <strong>your own Google Drive</strong> (permission: drive.appdata). NoteBuddy can only see that
+    folder, not your other Drive files. Neither we nor Google can read the backups, and they use your Drive storage. You can turn backup off and
+    delete the backups from inside the app at any time.</p>
 
   <h2>Features that use services on your phone</h2>
   <ul>
@@ -71,8 +72,7 @@
   </ul>
 
   <h2>Deleting your data</h2>
-  <p>Data on your phone is deleted when you delete it in the app or uninstall NoteBuddy. To delete your account and any synced (encrypted) data,
-    use “Delete account” in the app's settings once sync is available, or email <a href="mailto:samrimi33@gmail.com">samrimi33@gmail.com</a>
+  <p>Data on your phone is deleted when you delete it in the app or uninstall NoteBuddy. To delete your cloud backups, use Settings → Cloud backup → Turn off → “Also delete my backups”. To delete your sign-in account, email <a href="mailto:samrimi33@gmail.com">samrimi33@gmail.com</a>
     from the address you signed in with and we will delete it within 30 days.</p>
 
   <h2>Children</h2>
