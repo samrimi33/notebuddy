@@ -20,9 +20,11 @@ Everything stays on your phone. No ads. No tracking.
 | 📝 **Notes** | Checklists, folders, tags, linked notes with a note map, scanning, dictation, read aloud, flashcards, version history |
 | 📖 **Diary** | Lined notebook pages, photo memories, postcards, time capsules, voice diary, weekly reflection — read it as a real book with page turns, or save it as a PDF to print |
 | ✅ **Plan** | Tasks, habits, reminders, timetable, countdowns, meal planner, packing lists, event planner |
-| 💸 **Money** | Expenses and income, budgets, recurring bills, split bills, debts, savings jars, warranties and receipts |
+| 💸 **Money** | Expenses and income, budgets, recurring bills, split bills, debts, savings jars, warranties, monthly PDF reports |
 | 💧 **Health** | Water, sleep and period tracking, medicine reminders, gratitude jar, birthdays |
-| 🔐 **Vault** | Passwords, cards, Wi-Fi and keys encrypted with AES-256 — import from Chrome, Bitwarden and more |
+| 🔐 **Vault** | Passwords, cards, Wi-Fi and keys encrypted with AES-256 — import from Chrome, Bitwarden and more, 2FA codes, and autofill in other apps |
+| 👨‍👩‍👧 **Shared lists** | Grocery lists the whole family can edit live — end-to-end encrypted |
+| ☁️ **Backup** | Encrypted daily backup to your own Google Drive, restore on a new phone |
 | 🐧 **Buddy** | A penguin friend with games, badges and festival outfits |
 | 📱 **Widgets** | Today, grocery, habits, timetable, countdown, search and more on your home screen |
 

@@ -46,12 +46,23 @@
     folder, not your other Drive files. Neither we nor Google can read the backups, and they use your Drive storage. You can turn backup off and
     delete the backups from inside the app at any time.</p>
 
+  <h2>Shared lists (optional)</h2>
+  <p>If you share a grocery list, it is <strong>encrypted on your phone</strong> with a key that is only in the invite link you send and on
+    your members' phones. Our server (Supabase) stores the encrypted list, which accounts are members, and when it changed — it cannot read the
+    list. Anyone you give the invite link to can open the list. You can stop sharing at any time.</p>
+
+  <h2>Password autofill (optional)</h2>
+  <p>If you turn on autofill, NoteBuddy keeps an encrypted copy of your logins on your phone (key in the Android Keystore) so Android can offer
+    them in other apps and websites. Each fill needs your fingerprint, face or screen lock, and a login is only offered on the site or app it
+    was saved for. Nothing is uploaded.</p>
+
   <h2>Features that use services on your phone</h2>
   <ul>
     <li><strong>Document scanning and reading text from photos</strong> run on your phone (Google ML Kit, on-device). Images are not uploaded.</li>
     <li><strong>Dictation</strong> uses your phone's speech-recognition service. When your phone has an offline speech model it runs on the device;
       otherwise your phone's provider (usually Google) processes the audio under its own privacy policy. NoteBuddy shows which one is in use.</li>
     <li><strong>Read aloud</strong> uses your phone's built-in text-to-speech.</li>
+    <li><strong>Camera</strong> is used only when you scan a document or a two-factor QR code. Pictures stay on your phone.</li>
     <li><strong>AI assistant (optional, off by default)</strong>: only when you use it, the text you choose is sent to Anthropic's Claude API using an API key
       you provide. It is never used automatically and locked notes are never sent.</li>
   </ul>

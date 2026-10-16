@@ -1,7 +1,7 @@
 {
-  "version": "1.2.0",
-  "versionCode": 3,
+  "version": "1.3.0",
+  "versionCode": 4,
   "date": "2026-10-16",
-  "apk": "https://github.com/samrimi33/notebuddy/releases/download/v1.2.0/NoteBuddy.apk",
-  "notes": "Encrypted cloud backup to your own Google Drive, with restore on a new phone. Password import from Chrome and Bitwarden. Real page turns with sound."
+  "apk": "https://github.com/samrimi33/notebuddy/releases/download/v1.3.0/NoteBuddy.apk",
+  "notes": "Password autofill in other apps, 2FA codes in your vault, live shared grocery lists, monthly money report, smart reminders from your notes, voice quick capture."
 }
