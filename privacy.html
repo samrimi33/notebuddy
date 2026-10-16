@@ -54,7 +54,7 @@
   <h2>Password autofill (optional)</h2>
   <p>If you turn on autofill, NoteBuddy keeps an encrypted copy of your logins on your phone (key in the Android Keystore) so Android can offer
     them in other apps and websites. Each fill needs your fingerprint, face or screen lock, and a login is only offered on the site or app it
-    was saved for. Nothing is uploaded.</p>
+    was saved for. When you choose “Save” in Android’s save prompt, the new login is kept encrypted on your phone until you confirm it in NoteBuddy. Nothing is uploaded.</p>
 
   <h2>Features that use services on your phone</h2>
   <ul>
@@ -66,6 +66,17 @@
     <li><strong>AI assistant (optional, off by default)</strong>: only when you use it, the text you choose is sent to Anthropic's Claude API using an API key
       you provide. It is never used automatically and locked notes are never sent.</li>
   </ul>
+
+  <h2>Payments from SMS (optional, off by default)</h2>
+  <p>On versions installed from our website, you can let NoteBuddy read your SMS inbox to turn bank, wallet and recharge messages into expenses
+    (permission: READ_SMS, asked only when you turn it on). Messages are read <strong>only on your phone</strong>: NoteBuddy keeps the amount,
+    date, payee and category it finds, plus a short fingerprint of each message so it isn't added twice. The message text itself is never saved,
+    uploaded or shared, and one-time passwords are ignored. You can turn this off at any time. The Google Play version does not include this feature.</p>
+
+  <h2>Smart reminders</h2>
+  <p>NoteBuddy may remind you about bills that usually repeat (for example electricity or a phone recharge), money friends owe you from a split
+    bill, or a budget that is nearly used up. These are worked out on your phone from your own entries and scheduled as local notifications.
+    You can turn them off in Settings.</p>
 
   <h2>Update check</h2>
   <p>About twice a day NoteBuddy downloads a small file (version.json) from our GitHub page to see if a newer version exists.

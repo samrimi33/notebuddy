@@ -1,7 +1,7 @@
 {
-  "version": "1.3.0",
-  "versionCode": 4,
+  "version": "1.4.0",
+  "versionCode": 7,
   "date": "2026-10-16",
-  "apk": "https://github.com/samrimi33/notebuddy/releases/download/v1.3.0/NoteBuddy.apk",
-  "notes": "Password autofill in other apps, 2FA codes in your vault, live shared grocery lists, monthly money report, smart reminders from your notes, voice quick capture."
+  "apk": "https://github.com/samrimi33/notebuddy/releases/download/v1.4.0/NoteBuddy.apk",
+  "notes": "Payments from SMS are added as expenses (you sort the unknown ones). Reminders for bills you usually pay, money friends owe you and budgets running out. A budget planner for trips, months and events. Choose up to 10 Home tiles, plus a More button with everything."
 }
