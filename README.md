@@ -1,3 +1,13 @@
+<img width="1080" height="1920" alt="10-health" src="https://github.com/user-attachments/assets/cb224868-db56-46cc-ad8e-21367cca304f" />
+<img width="1080" height="1920" alt="09-more" src="https://github.com/user-attachments/assets/37c206c2-c341-4618-a15c-500c89aab213" />
+<img width="1080" height="1920" alt="08-grocery" src="https://github.com/user-attachments/assets/8bc75fbe-1823-47e3-8432-63f4a3a49e4e" />
+<img width="1080" height="1920" alt="07-sms" src="https://github.com/user-attachments/assets/29121c73-e418-4fa4-b9a5-0dc652a775ff" />
+<img width="1080" height="1920" alt="06-plan" src="https://github.com/user-attachments/assets/0c423f85-a38f-4f33-ab47-71261f1ed971" />
+<img width="1080" height="1920" alt="05-expenses" src="https://github.com/user-attachments/assets/351297b5-3fd3-4bdf-aa81-96b00170a1ed" />
+<img width="1080" height="1920" alt="04-vault" src="https://github.com/user-attachments/assets/5d262386-7cd4-449c-9829-7e85ffdcaca5" />
+<img width="1080" height="1920" alt="03-book" src="https://github.com/user-attachments/assets/4c715079-b9ab-4490-bf76-e96bca1c3c6c" />
+<img width="1080" height="1920" alt="02-notes" src="https://github.com/user-attachments/assets/61f54142-878c-46c1-ac16-669290b0427a" />
+<img width="1080" height="1920" alt="01-home" src="https://github.com/user-attachments/assets/7a755bc5-b471-448a-98e6-be4909710cd8" />
 <div align="center">
 
 # 🐧 NoteBuddy
