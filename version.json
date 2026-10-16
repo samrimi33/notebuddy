@@ -1,7 +1,7 @@
 {
-  "version": "1.4.0",
-  "versionCode": 7,
-  "date": "2026-10-16",
-  "apk": "https://github.com/samrimi33/notebuddy/releases/download/v1.4.0/NoteBuddy.apk",
-  "notes": "Payments from SMS are added as expenses (you sort the unknown ones). Reminders for bills you usually pay, money friends owe you and budgets running out. A budget planner for trips, months and events. Choose up to 10 Home tiles, plus a More button with everything."
+  "version": "1.4.1",
+  "versionCode": 8,
+  "date": "2026-10-17",
+  "apk": "https://github.com/samrimi33/notebuddy/releases/download/v1.4.1/NoteBuddy.apk",
+  "notes": "Fixed the big gap in Settings → Notifications, and Buddy now stands properly in his room. Clearer help for turning on Payments from SMS on Android 13 and newer."
 }

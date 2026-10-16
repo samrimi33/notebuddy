@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Installing NoteBuddy</title>
+<meta name="description" content="Why Google Play Protect warns about NoteBuddy, how to install it safely, and how to check your download is genuine.">
+<style>
+  :root { --bg: #FFF6F8; --text: #2B1B24; --muted: #8C7280; --card: #FFFFFF; --accent: #6C5CE7; --warn: #FFF3D6; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #1A1418; --text: #F8EAF0; --muted: #B39AA6; --card: #251C22; --accent: #9D8CFF; --warn: #3A2F18; } }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: 32px; margin: 0 0 8px; } h2 { margin-top: 32px; }
+  .muted { color: var(--muted); } a { color: var(--accent); }
+  .card { background: var(--card); border-radius: 16px; padding: 16px 18px; margin: 12px 0; }
+  .warn { background: var(--warn); }
+  code { word-break: break-all; font-size: 14px; }
+  li { margin: 6px 0; }
+</style>
+</head>
+<body>
+<main>
+  <p><a href="./">← NoteBuddy</a></p>
+  <h1>Installing NoteBuddy</h1>
+  <p class="muted">Why Google Play Protect may warn you, what it means, and how to install safely.</p>
+
+  <h2>Why does Play Protect warn about or block NoteBuddy?</h2>
+  <p>NoteBuddy is downloaded from GitHub, not the Google Play Store. Play Protect checks every app installed from outside Play.
+    It treats an app it hasn't seen before more cautiously, especially a new app from a small developer. It is stricter again when the app asks for powerful permissions. NoteBuddy asks for two:</p>
+  <ul>
+    <li><b>Reading SMS</b>: used only for the optional "Payments from SMS" feature, which turns bank and wallet messages into expenses on your phone.</li>
+    <li><b>Autofill service</b>: used only if you turn on password autofill from your vault.</li>
+  </ul>
+  <p>Apps that read SMS or fill in passwords are also what scam apps ask for. Play Protect can't tell an honest new app from a dishonest one, so it may warn you or block the install.
+    <b>The warning means "Google doesn't know this app yet". It does not mean a virus was found.</b></p>
+  <div class="card warn">If the message names a specific threat, or says the app <b>"contains malware"</b> or was <b>"removed"</b>, don't install it.
+    Delete the file and email <a href="mailto:samrimi33@gmail.com">samrimi33@gmail.com</a>. You may have downloaded a copy from somewhere other than our official page.</div>
+
+  <h2>Before you install: make sure it's the real app</h2>
+  <ol>
+    <li>Download only from the official <a href="https://github.com/samrimi33/notebuddy/releases/latest">GitHub releases page</a>, never from another website or a forwarded file.</li>
+    <li>Optional check for advanced users: every official NoteBuddy APK is signed with the same certificate.
+      <div class="card"><b>Signing certificate SHA-256</b><br><code>6C:D4:05:42:E1:23:FF:39:0B:8B:D7:F0:1E:77:9E:87:AD:80:76:CA:55:B4:E9:A5:24:50:C0:AD:DA:BA:36:D7</code></div>
+      You can check it with <code>apksigner verify --print-certs NoteBuddy.apk</code>, or with an app such as "App Manager". Each release's notes also list the file's SHA-256 checksum.</li>
+  </ol>
+
+  <h2>How to install</h2>
+  <ol>
+    <li>Open <b>NoteBuddy.apk</b> from your downloads and tap <b>Install</b>. If Android asks, allow your browser or file manager to install apps.</li>
+    <li>If you see <b>"Unsafe app blocked"</b> or <b>"Play Protect warning"</b>, tap <b>More details</b> (or the small arrow), then <b>Install anyway</b>.</li>
+    <li>If there's no "Install anyway" button:
+      <ol type="a">
+        <li>Open the <b>Play Store</b> → tap your profile picture → <b>Play Protect</b> → ⚙ settings.</li>
+        <li>Turn off <b>Scan apps with Play Protect</b> for now and install NoteBuddy.</li>
+        <li><b>Turn Play Protect back on straight away</b>. It keeps protecting you from other apps.</li>
+      </ol></li>
+    <li>If Play Protect later suggests removing NoteBuddy, you can choose to keep it. Your data stays on your phone either way.</li>
+  </ol>
+
+  <h2>Turning on "Payments from SMS" (Android 13 and newer)</h2>
+  <p>For apps installed from outside Play, Android 13+ hides the SMS permission behind a <b>"Restricted setting"</b>. To use the feature:</p>
+  <ol>
+    <li>Open Android <b>Settings → Apps → NoteBuddy</b>.</li>
+    <li>Tap <b>⋮</b> (top right) → <b>Allow restricted settings</b>, then confirm with your PIN or fingerprint.</li>
+    <li>Go back to NoteBuddy and turn on <b>Payments from SMS</b> again.</li>
+  </ol>
+  <p class="muted">This step is optional. Everything else in NoteBuddy works without SMS access.</p>
+
+  <h2>What we're doing about it</h2>
+  <ul>
+    <li><b>Google Play release:</b> apps installed from Play aren't flagged this way. The Play version leaves out SMS reading, which Google allows only after a separate review.</li>
+    <li><b>Asking Google to review the app</b> so Play Protect recognises it.</li>
+    <li><b>Developer verification:</b> registering NoteBuddy under Google's Android developer verification, so Android knows who made it.</li>
+  </ul>
+
+  <h2>What NoteBuddy does with those permissions</h2>
+  <p>SMS messages are read <b>only on your phone</b>. Only the amount, date and payee are kept, and message text is never saved or sent anywhere.
+    Autofill logins are encrypted on your phone, and every fill needs your fingerprint or screen lock.
+    Full details are in the <a href="privacy.html">privacy policy</a>. Questions? <a href="mailto:samrimi33@gmail.com">samrimi33@gmail.com</a></p>
+</main>
+</body>
+</html>
